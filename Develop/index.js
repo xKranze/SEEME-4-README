@@ -1,8 +1,10 @@
 // TODO: Include packages needed for this application
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    //Your Project Title
+    //Project Title
     {
         type: 'input',
         name: 'title',
@@ -44,8 +46,9 @@ const questions = [
         name: 'license',
         message: 'What license would you like to choose?',
         choices: [
-            'MIT',
             'None',
+            'Apache License 2.0',
+            'MIT License',
         ]
     },
     //Questions (GitHub username and Email address)
@@ -57,7 +60,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'Please provide your email address here.',
+        message: 'Please provide your email address here. So others can reach out additional questions',
     }
 ];
 
