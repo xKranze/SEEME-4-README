@@ -3,7 +3,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
-const questions = [
+const promptUser = () => {
+    return inquirer.prompt([
     //Project Title
     {
         type: 'input',
@@ -62,7 +63,8 @@ const questions = [
         name: 'email',
         message: 'Please provide your email address here. So others can reach out additional questions',
     }
-];
+    ]);
+};
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
