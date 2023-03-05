@@ -36,6 +36,10 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 ## Credits
 
+Starter code provided from:
+
+https://github.com/coding-boot-camp/potential-enigma
+
 https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
 
 https://www.npmjs.com/package/inquirer
