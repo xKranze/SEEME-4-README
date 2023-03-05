@@ -9,7 +9,11 @@ This README generated is based on the README guide found in this documentation: 
 Installation
 Some installation packages is needed to run this application in command-line.
 
-Please be sure to have the following installed prior to running this application: -Install node version v16.18.0 by following instructions here: https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
+Please be sure to have the following installed prior to running this application:
+
+-Install node version v16.18.0 by following instructions here: 
+
+https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
 
 -Install the inquirer by running this in the terminal: npm i inquirer@8.2.4
 
@@ -17,6 +21,7 @@ Once these steps are completed run the index.js file to generate your personal R
 
 
 Usage
+
 Provide instructions and examples for use. Include screenshots as needed.
 
 ![alt text](./assets/readmegenerator.jpg)
