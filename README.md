@@ -35,7 +35,6 @@ Please view the video demo link below to see howw to use the application:
 <a href="https://drive.google.com/file/d/1yPUIkMFhLmLAXvvqVfR26ix_N5kz8YCw/view">README Generator Demo</a>
 
     
-    
 ![alt text](./readmegenerator.jpg)
 
 
