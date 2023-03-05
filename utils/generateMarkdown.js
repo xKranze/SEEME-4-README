@@ -48,7 +48,6 @@ ${data.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 - [Features](#features)
 - [Contributions](#contributions)
 - [Tests](#tests)
