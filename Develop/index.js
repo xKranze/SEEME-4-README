@@ -27,13 +27,13 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Please provide instructions and examples for use. (Optional) To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:![alt text](assets/images/screenshot.png) ',
+        message: 'Please provide instructions and examples for use.',
     },
     //Credits
     {
         type: 'input',
         name: 'credits',
-        message: 'List your collaborators, if any, with links to thier GitHub profiles. Third-party assets that reuqire attributions and or any tutorials you followed, include links to those here aswell.',
+        message: 'List your collaborators, if any, with links to thier GitHub profiles. Third-party assets that require attributions and or any tutorials you followed, include links to those here aswell.',
     },
     //License and Badge
     {
