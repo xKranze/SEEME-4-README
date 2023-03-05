@@ -29,7 +29,7 @@ Once these steps are completed run the index.js file to generate your personal R
 Provide instructions and examples for use. Include screenshots as needed.
 
 
-    ![alt text](./assets/readmegenerator.jpg)
+    ![alt text](./Develop/utils/readmegenerator.jpg)
    
 
 
