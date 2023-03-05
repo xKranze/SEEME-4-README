@@ -5,6 +5,7 @@ This command-line application will dynamically generate a professional README.md
 
 This README generated is based on the README guide found in this documentation: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
+
 Installation
 Some installation packages is needed to run this application in command-line.
 
@@ -14,11 +15,15 @@ Please be sure to have the following installed prior to running this application
 
 Once these steps are completed run the index.js file to generate your personal README.md.
 
+
 Usage
 Provide instructions and examples for use. Include screenshots as needed.
 
 ![alt text](./assets/readmegenerator.jpg)
+
+
 Credits
+
 https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
 
 https://www.npmjs.com/package/inquirer
@@ -26,6 +31,7 @@ https://www.npmjs.com/package/inquirer
 UW BOOTCAMP COURSE
 
 Tutors
+
 
 Features
 Creates a new README.md file using user inputs.
