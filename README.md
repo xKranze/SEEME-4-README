@@ -1,42 +1,58 @@
-#SEE ME 4 README
+# dsvds
 
-##Description
-This command-line application will dynamically generate a professional README.md file made from a users input using the Inquirer package installed!
+## Description 
+  
+vdasvd
+  
+## Table of Contents 
+  
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [Questions](#questions)
+  
+## Installation
+  
+svsdvsd
+  
+## Usage 
+  
+vsdv
+  
+## Credits
+  
+sdsdv
+  
+## License
 
-This README generated is based on the README guide found in this documentation: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+This project is licensed under the Apache 2.0 license.
 
+https://www.apache.org/licenses/LICENSE-2.0.txt
 
-##Installation
-Some installation packages is needed to run this application in command-line.
+## Badges
 
-Please be sure to have the following installed prior to running this application:
+![License](https://img.shields.io/badge/license-Apache-blue)
 
--Install node version v16.18.0 by following instructions here: 
+## Features
 
-https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
+sdvsdv
 
--Install the inquirer by running this in the terminal: npm i inquirer@8.2.4
+## Contributions
 
-Once these steps are completed run the index.js file to generate your personal README.md.
+vdsv
 
+## Tests
+  
+sdvsdv
+  
+## Questions
 
-##Usage
+If you have any questions or concerns please contact me here: 
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-![alt text](./assets/readmegenerator.jpg)
-
-
-##Credits
-
-https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
-
-https://www.npmjs.com/package/inquirer
-
-UW BOOTCAMP COURSE
-
-Tutors
-
-
-##Features
-Creates a new README.md file using user inputs.
+- Github: https://github.com/xKranze
+- Email: jimmyyin85@live.com
