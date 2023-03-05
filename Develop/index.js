@@ -29,17 +29,11 @@ const questions = [
         name: 'usage',
         message: 'Please provide instructions and examples for use. (Optional) To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:![alt text](assets/images/screenshot.png) ',
     },
-    //How to Contribute
+    //Credits
     {
         type: 'input',
-        name: 'contributions',
-        message: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.',
-    },
-    //Tests
-    {
-        type: 'input',
-        name: 'test',
-        message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
+        name: 'credits',
+        message: 'List your collaborators, if any, with links to thier GitHub profiles. Third-party assets that reuqire attributions and or any tutorials you followed, include links to those here aswell.',
     },
     //License and Badge
     {
@@ -51,6 +45,24 @@ const questions = [
             'Apache License 2.0',
             'MIT License',
         ]
+    },
+    //Features
+    {
+        type: 'input',
+        name: 'features',
+        message: 'If your project has a lot of features, list them here.'
+    },
+    //How to Contribute
+    {
+        type: 'input',
+        name: 'contributions',
+        message: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.',
+    },
+    //Tests
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
     },
     //Questions (GitHub username and Email address)
     {
@@ -68,14 +80,18 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-// .then((response) => {
-// function writeToFile(fileName, data) { }
-// });
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.log(err) : console.log('Successfully created README file!')
+    );
+};
+
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions)
-
- }
+    inquirer.prompt(questions).then((response) =>
+        writeToFile('./README.md', generateMarkdown({ ...response }))
+    );
+}
 
 // Function call to initialize app
 init();
