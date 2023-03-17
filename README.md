@@ -4,6 +4,7 @@
 
 This command-line application will dynamically generate a professional README.md file made from a users input using the Inquirer package installed!  
 
+
 This README generated is based on the README guide found in this documentation:
 
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
